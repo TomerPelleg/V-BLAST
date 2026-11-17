@@ -1,0 +1,35 @@
+{
+  "experiments_number": 200,
+  "fixed_matrix_dimension": null,
+  "fixed_noise": 0.15,
+  "matrix_generation_method": "ZeroMeanGaussian",
+  "metrics_to_plot": [
+    "iterations"
+  ],
+  "permutation_methods_and_repetitions": {
+    "Random Sampling": 5,
+    "SQRD": 1,
+    "V-BLAST": 1
+  },
+  "plot_log_scale": true,
+  "sweep_parameter": "matrix_dimension",
+  "sweep_values": [
+    16,
+    32,
+    48,
+    64,
+    80,
+    96,
+    112,
+    128,
+    144,
+    160,
+    176,
+    192,
+    208,
+    224,
+    240,
+    256
+  ],
+  "vector_generation_method": "BIPOLAR"
+}

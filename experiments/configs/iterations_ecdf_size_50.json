@@ -1,0 +1,18 @@
+{
+  "experiments_number": 100000,
+  "matrix_dimension": 50,
+  "matrix_generation_method": "ZeroMeanGaussian",
+  "metrics_to_plot": [
+    "iterations",
+    "convergence_probability"
+  ],
+  "noise": 0.15,
+  "permutation_methods_and_repetitions": {
+    "Random": 1,
+    "Random Sampling": 1,
+    "SQRD": 1,
+    "V-BLAST": 1
+  },
+  "plot_log_scale": true,
+  "vector_generation_method": "Rounded Gaussian"
+}
